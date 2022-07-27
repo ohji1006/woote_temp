@@ -5,7 +5,7 @@ import problem3.Collector;
 
 /**
  * 역할.
- * 입력 받은 char 을 더하는 역할
+ * 입력 받은 char 을 더하는 역할 ( 행위의 추상화. )
  */
 public class BasicAppender implements Appender {
     @Override

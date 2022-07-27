@@ -5,10 +5,10 @@ package problem3;
  * 단어를 지정 범위 안에서 거꾸로 변환하는 역할.
  */
 public class Backwarder {
-    private final int startInclusive;
-    private final int endExclusive;
+    private final char startInclusive;
+    private final char endExclusive;
 
-    public Backwarder(int startInclusive, int endExclusive) {
+    public Backwarder(char startInclusive, char endExclusive) {
         if (startInclusive > endExclusive) {
             throw new RuntimeException("start is bigger than end.");
         }
